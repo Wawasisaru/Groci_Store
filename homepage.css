@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation bar */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: rgba(10, 1, 1, 0.7); */
+    background-color:#274001;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+ }
+ ul li {
+     display: inline-block;
+     margin-left: 40px;
+     /* text-decoration: none; */
+ }
+ a {
+    text-decoration: none;
+    /* text-shadow: chartreuse;
+     */
+     color:whitesmoke;
+     font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+ }
+ /* End of navigation bar */
