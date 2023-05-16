@@ -47,54 +47,30 @@ nav{
     flex-direction: column;
     align-items: flex-end;
 } 
- 
-#paragraph{
-    color: #CF6521;
-    font-size: 1.3rem;
-    text-align: center;
-}
 #textone{
-    font-size: 40px;
-}
-#texttwo{
-    font-size: 30px;
-    text-align: center;
+    font-size: 43px;
+    color:#d1570c;
+    font-weight: bold;
 }
 #servetext{
-    color:#004D00;
+    color:#162401;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 60PX;
+    padding-top: 20px;
+
 }
 #information{
-    /* border: 2px solid red; */
-    margin-top: 60px;
-    margin-left: 40%;
-    /* text-align: left; */
+    /* margin-top: 60px; */
+    /* margin-left: 40%; */
     width: 40%;
     display: flex;
+    /* padding-left: 30PX; */
+    padding-top: 15%;
     flex-direction: column;
    
 }
-#textstore{
-    /* border: 2px solid blue; */
-    margin-top:30px ;
-    font-size: 1.1rem;
-    padding: 30px;
-    /* padding-left: 20%; */
 
-}
-.btn2section {
-    border: none;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    margin: auto;
-color: whitesmoke;
-background-color: #CF6521;
-padding: 15px 40px;
-text-align: center;
-align-self: center;
-font-weight: bold;
-}
- /* End of the homepage styling */
- /* media querry start */
  /* Media query for screens smaller than 600px */ 
 @media (max-width: 600px) {
     #information{
