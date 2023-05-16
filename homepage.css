@@ -94,3 +94,40 @@ align-self: center;
 font-weight: bold;
 }
  /* End of the homepage styling */
+ /* media querry start */
+ /* Media query for screens smaller than 600px */ 
+@media (max-width: 600px) {
+    #information{
+        margin-left: 10px;
+        width: 80%;
+    }
+    #textstore{
+        padding: 10px;
+    }
+    /* Adjust other styles as needed for smaller screens */
+}
+
+@media (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #information {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    #textstore {
+        padding: 10px;
+    }
+
+    /* Adjust other styles as needed for small screens */
+}
+ /* Media querry end */
