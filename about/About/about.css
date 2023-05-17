@@ -17,5 +17,19 @@
 }
 .contentabout{
     text-align: center;
-    color:#D1570C;
+    color:#D1570C;;
+    font-size: 30px;
 }
+@media (max-width: 768px) { 
+
+.page2 { flex-direction: column; }
+
+.content2, .image { width: 100%; }
+
+.image { margin-left: 0; margin-top: 5%; } 
+
+.contentabout { font-size: 24px; }
+ }
+@media (max-width: 480px) { 
+    .contentabout { font-size: 20px; }
+ }
