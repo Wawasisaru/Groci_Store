@@ -1,15 +1,14 @@
 *{
     margin: 0px;
-    padding: 0%;
+    padding: 0px;
 }
 #contactmain{
-    /* height: 50vh; */
     background-color: #274001;
     align-items: center;
 }
 #Contact{
-    margin-top: 10%; 
-     margin-left: 40%;
+    margin-top: 2px; 
+    margin-left: 40%;
     color: #D1570C;;
     font-size: 40px;
 }
@@ -17,32 +16,32 @@
  .question{
     font-size: larger;
     margin-left: 30%; 
-    margin-top: 2%;
+    margin-top: 2px;
     color: #54643c;
 } 
 .phone{
-    margin-top: 2%;
+    margin-top: 1px;
     text-align: center;
     font-size: larger; 
     background-color: #274001; 
-    padding: 5%;
+    padding: 2%;
     color: white; 
-     height: 20vh;
+    height: 5vh;
 }
 
 @media only screen and (max-width: 768px) {
     #Contact {
-        margin-top: 5%;
+        margin-top: 1.5%;
         margin-left: 10%;
         font-size: 30px;
     }
     .question {
         margin-left: 10%;
-        margin-top: 2%;
+        margin-top: 1%;
         font-size: medium;
     }
     .phone {
-        margin-top: 2%;
+        margin-top: 1%;
         padding: 3%;
         font-size: medium;
     }
