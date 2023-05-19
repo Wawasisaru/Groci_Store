@@ -18,17 +18,19 @@
 
 .selection {
     font-size: 1.3em;
+    padding-top: 30;
 }
 
 .grocci {
     padding-left: 10%;
-    width: 70%;
+    width: 50%;
     border-radius: 1em;
 }
 
-.deliver {
+.delivery {
+    width: 40%;
     padding-left: 15%;
-    margin-bottom: 6em;
+    padding-top: 30%;
 }
 
 .more {
@@ -37,6 +39,7 @@
 }
 
 .offers {
+    width: 40%;
     padding-left: 15%;
 }
 

@@ -35,8 +35,9 @@ nav{
  /* End of navigation bar */
  /* Start of the homepage styling */
  #home{
-    font-weight: bold;
+    font-weight: ;
     color: #CF6521;
+    padding-right: 30px;
  }
  #homepage {
     /* border: 7px solid red; */
