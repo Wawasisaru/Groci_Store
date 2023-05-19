@@ -22,7 +22,7 @@
 
 .grocci {
     padding-left: 10%;
-    width: 70%;
+    width: 50%;
     border-radius: 1em;
     margin-top: 3em;
 }
@@ -38,8 +38,9 @@
 }
 
 .offers {
-    margin-bottom: 30em;
+    /* margin-bottom: 30em; */
     padding-left: 15%;
+    height: 30vh;
 }
 
 
