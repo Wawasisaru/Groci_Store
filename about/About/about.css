@@ -1,25 +1,32 @@
 .page2{
-   width: 100%;
+   width: 90%;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
+   padding-top: 50px;
    
 }
 .content2{
-    width: 50%;
-    font-size: 29px;
+    /* width: 50%; */
+    font-size: 1.3rem;
+    padding-left: 50px;
 }
 .image{
     width: 50%;
    margin-left: 10%;
 }
-.contentabout{
-    margin-bottom: 5%;
+.about{
+    text-align: center;
+    color:#D1570C ;
+    /* align-items: center; */
 }
-.contentabout{
+/* .contentabout{
+    margin-bottom: 5%;
+} */
+/* .contentabout{
     text-align: center;
     color:#D1570C;;
     font-size: 30px;
-}
+} */
 @media (max-width: 768px) { 
 
 .page2 { flex-direction: column; }

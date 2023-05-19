@@ -2,27 +2,32 @@
     margin: 0px;
     padding: 0%;
 }
-
+#contactmain{
+    /* height: 50vh; */
+    background-color: #274001;
+    align-items: center;
+}
 #Contact{
-    margin-top: 10%;
-    margin-left: 40%;
+    margin-top: 10%; 
+     margin-left: 40%;
     color: #D1570C;;
     font-size: 40px;
-   
 }
-.question{
+
+ .question{
     font-size: larger;
     margin-left: 30%; 
     margin-top: 2%;
     color: #54643c;
-}
+} 
 .phone{
     margin-top: 2%;
     text-align: center;
-    font-size: larger;
-    background-color: #274001;
+    font-size: larger; 
+    background-color: #274001; 
     padding: 5%;
-    color: white;
+    color: white; 
+     height: 20vh;
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,4 +46,4 @@
         padding: 3%;
         font-size: medium;
     }
-}
+} 
